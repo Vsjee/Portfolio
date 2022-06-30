@@ -1,0 +1,30 @@
+.foot {}
+
+/* form */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.form button {
+    cursor: pointer;
+}
+
+.form--name,
+.form--email,
+.form--textarea {
+    width: 400px;
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.form--textarea {
+    width: 400px;
+    height: 200px;
+    resize: none;
+}
