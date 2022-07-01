@@ -1,30 +1,43 @@
-.foot {}
+/* footer */
 
-/* form */
-
-.form {
+.foot {
+    background-color: black;
+    color: white;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.2rem;
+    flex-direction: column;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0;
+    padding: .1rem;
+    padding-bottom: 1rem;
 }
 
-.form button {
-    cursor: pointer;
+.foot--list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: .1rem;
 }
 
-.form--name,
-.form--email,
-.form--textarea {
-    width: 400px;
-    padding: .5rem;
-    border: 1px solid black;
-    border-radius: 10px;
+/* footer icons */
+
+.foot--list--item a {
+    color: rgb(255, 255, 255);
+    font-size: 1.9rem;
+    transition: .3s ease-in-out;
 }
 
-.form--textarea {
-    width: 400px;
-    height: 200px;
-    resize: none;
+.foot--list--item a:hover {
+    color: rgb(104, 22, 255);
+    transition: .3s ease-in-out;
+}
+
+/* @copyright */
+
+.foot p {
+    font-size: 12px;
 }
