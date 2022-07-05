@@ -15,7 +15,7 @@
     flex-wrap: wrap;
     gap: 2rem;
     padding: 1.8rem;
-    background-color: #505152;
+    /* background-color: #505152; */
     border-radius: 25px;
 }
 
@@ -24,7 +24,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .container--skills--list--item {
