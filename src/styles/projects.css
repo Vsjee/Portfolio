@@ -1,6 +1,20 @@
 .projects {
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.projects--list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
 }
