@@ -14,7 +14,12 @@
     flex-wrap: wrap;
     margin: 1rem;
     padding: 1rem;
-    gap: 2rem;
     justify-content: space-between;
     align-items: center;
+}
+
+.projects--list li {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #fff;
 }
