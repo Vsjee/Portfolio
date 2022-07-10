@@ -16,8 +16,12 @@
 }
 
 .projects--list li {
-    margin: 1rem;
-    width: 320px;
-    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    /* width: 320px;
+    height: 160px; */
     background-color: rgb(94, 88, 88);
 }

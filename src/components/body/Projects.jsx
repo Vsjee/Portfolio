@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../styles/projects.css'
+import toDo from '../../assets/projects/toDo.png'
 
 function Projects() {
     return (
@@ -7,19 +8,27 @@ function Projects() {
             <h2>Projects</h2>
             <ul className='projects--list'>
                 <li>
-                    <a href=""><img src="" alt="project" /></a>
-                    <h4>s1</h4>
+                    <a href="https://vsjee.github.io/React-to-do/">
+                        <img src={toDo} alt="project" width="300px" />
+                    </a>
+                    <h4>To-Do</h4>
                 </li>
                 <li>
-                    <a href=""><img src="" alt="project" /></a>
+                    <a href="">
+                        <img src={toDo} alt="project" width="300px" />
+                    </a>
                     <h4>s2</h4>
                 </li>
                 <li>
-                    <a href=""><img src="" alt="project" /></a>
+                    <a href="">
+                        <img src={toDo} alt="project" width="300px" />
+                    </a>
                     <h4>s3</h4>
                 </li>
                 <li>
-                    <a href=""><img src="" alt="project" /></a>
+                    <a href="">
+                        <img src={toDo} alt="project" width="300px" />
+                    </a>
                     <h4>s4</h4>
                 </li>
 
