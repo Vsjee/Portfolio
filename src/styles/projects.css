@@ -1,25 +1,23 @@
 .projects {
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 1rem;
 }
 
 .projects--list {
     display: flex;
     flex-wrap: wrap;
-    margin: 1rem;
-    padding: 1rem;
+    gap: 2rem;
     justify-content: space-between;
     align-items: center;
 }
 
 .projects--list li {
     margin: 1rem;
-    padding: 2rem;
-    background-color: #fff;
+    width: 320px;
+    height: 160px;
+    background-color: rgb(94, 88, 88);
 }
