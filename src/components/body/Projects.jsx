@@ -4,7 +4,7 @@ import toDo from '../../assets/projects/toDo.png'
 
 function Projects() {
     return (
-        <div className='projects'>
+        <div className='projects' id='projects'>
             <h2>Projects</h2>
             <ul className='projects--list'>
                 <li>

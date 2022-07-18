@@ -11,7 +11,7 @@ import '../../styles/skills.css'
 
 function Skills() {
     return (
-        <div className='container--skills'>
+        <div className='container--skills' id='skills'>
             <h2>Skills</h2>
             <ul className='container--skills--list'>
                 <li className='container--skills--list--item'><img src={html} alt="html" width='100' />HTML5</li>
