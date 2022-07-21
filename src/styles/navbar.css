@@ -5,7 +5,9 @@
 }
 
 a,
-ul {
+ul,
+li,
+p {
     text-decoration: none;
     list-style: none;
     font-size: 18px;
