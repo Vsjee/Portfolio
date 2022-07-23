@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/form.css';
+import Button from './Button';
 
 function Form() {
     return (
@@ -17,7 +18,7 @@ function Form() {
                 rows='10'
                 placeholder='Your subject'
                 className='form--textarea'></textarea>
-            <button>Submit</button>
+            <Button>Submit</Button>
         </form>
     );
 }

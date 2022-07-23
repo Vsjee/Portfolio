@@ -9,10 +9,6 @@
     padding: 2rem;
 }
 
-.form button {
-    cursor: pointer;
-}
-
 .form--name,
 .form--email,
 .form--textarea {
