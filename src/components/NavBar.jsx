@@ -15,6 +15,11 @@ function NavBar() {
 					<nav className='head--nav'>
 						<ul className='head--nav--list'>
 							<li className='head--nav--list--item'>
+								<Link to='#about' smooth>
+									About
+								</Link>
+							</li>
+							<li className='head--nav--list--item'>
 								<Link to='#skills' smooth>
 									Skills
 								</Link>
@@ -22,11 +27,6 @@ function NavBar() {
 							<li className='head--nav--list--item'>
 								<Link to='#projects' smooth>
 									Projects
-								</Link>
-							</li>
-							<li className='head--nav--list--item'>
-								<Link to='#about' smooth>
-									About
 								</Link>
 							</li>
 							<li className='head--nav--list--item'>
