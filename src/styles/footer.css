@@ -1,0 +1,44 @@
+/* footer */
+
+.foot {
+    /* background-color: black; */
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0;
+    margin-top: 3rem;
+    padding: .1rem;
+    padding-bottom: 1rem;
+}
+
+.foot--list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: .1rem;
+}
+
+/* footer icons */
+
+.foot--list--item a {
+    color: rgb(0, 0, 0);
+    font-size: 1.9rem;
+    transition: .3s ease-in-out;
+}
+
+.foot--list--item a:hover {
+    color: rgb(104, 22, 255);
+    transition: .3s ease-in-out;
+}
+
+/* @copyright */
+
+.foot p {
+    font-size: 12px;
+}
