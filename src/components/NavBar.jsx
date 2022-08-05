@@ -4,7 +4,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import styled from 'styled-components';
 import NavBarStyles from './NavBarStyles';
 import Welcome from './Welcome';
-import Button from './Button';
+import Button from './ui/Button';
 
 const NavLink = styled(Link)`
   color: rgb(0, 0, 0);
@@ -45,7 +45,7 @@ function NavBar() {
 						</li>
 						<li className='head--nav--list--item'>
 							<NavLink to='#contact' smooth>
-								<Button>Contact</Button>
+								<Button primary='primary'>Contact</Button>
 							</NavLink>
 						</li>
 					</Ul>

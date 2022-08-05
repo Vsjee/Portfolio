@@ -1,6 +1,6 @@
 import React from 'react';
 import FormStyles from './FormStyles';
-import Button from './Button';
+import Button from './ui/Button';
 
 function Form() {
 

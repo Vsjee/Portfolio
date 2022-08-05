@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectsStyles from './ProjectsStyles'
 import toDo from '../assets/projects/toDo.png'
-import Button from './Button'
+import Button from './ui/Button'
 
 function Projects() {
 

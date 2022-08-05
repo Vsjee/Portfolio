@@ -1,6 +1,9 @@
 import styled from "styled-components";
+
 const Header = styled.header`
   display: flex;
+  /* position: fixed;
+  width: 100%; */
   justify-content: space-around;
   align-items: center;
   background-color: rgb(255, 255, 255);
