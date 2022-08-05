@@ -9,7 +9,7 @@ import GlobalStyle from './globalStyles'
 
 function App() {
 	return (
-		<div>
+		<>
 			<GlobalStyle />
 			<NavBar />
 			<About />
@@ -17,7 +17,7 @@ function App() {
 			<Projects />
 			<Form />
 			<Footer />
-		</div>
+		</>
 	)
 }
 
