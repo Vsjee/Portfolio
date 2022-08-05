@@ -1,20 +1,9 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import { HashLink as Link } from 'react-router-hash-link';
-import styled from 'styled-components';
 import NavBarStyles from './NavBarStyles';
 import Welcome from './Welcome';
 import Button from './ui/Button';
-
-const NavLink = styled(Link)`
-  color: rgb(0, 0, 0);
-  transition: .3s ease-in-out;
-
-  &:hover {
-    color: #ff6655;
-    transition: .3s ease-in-out;
-  }
-`;
+import NavLink from './ui/NavLink';
 
 function NavBar() {
 
