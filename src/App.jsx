@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
-import Form from './components/Form'
+import ContactForm from './components/Form/Form'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import About from './components/About'
@@ -15,7 +15,7 @@ function App() {
 			<About />
 			<Skills />
 			<Projects />
-			<Form />
+			<ContactForm />
 			<Footer />
 		</>
 	)
