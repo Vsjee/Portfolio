@@ -2,7 +2,7 @@ import React from 'react'
 import { AiOutlineArrowDown } from "react-icons/ai";
 import WelcomeStyles from './WelcomeStyles';
 import styled from 'styled-components';
-import NavLink from './ui/NavLink';
+import NavLink from '../../components/ui/navlink/NavLink';
 
 const Icon = styled(AiOutlineArrowDown)`
   font-size: 30px;

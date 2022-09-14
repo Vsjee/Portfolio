@@ -1,11 +1,9 @@
 import React from 'react'
-import NavBar from './components/NavBar'
-import Footer from './components/Footer'
-import ContactForm from './components/Form/Form'
-import Skills from './components/Skills'
-import Projects from './components/Projects'
-import About from './components/About'
 import GlobalStyle from './globalStyles'
+import { Footer, NavBar } from './components'
+import ContactForm from './components/Form/Form'
+import { About, Projects, Skills } from './pages'
+
 
 function App() {
 	return (

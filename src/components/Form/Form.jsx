@@ -1,6 +1,6 @@
 import React from 'react';
 import FormStyles from './FormStyles';
-import Button from '../ui/Button';
+import Button from '../ui/button/Button';
 import './required.css'
 //valdiation
 import { Formik } from 'formik';

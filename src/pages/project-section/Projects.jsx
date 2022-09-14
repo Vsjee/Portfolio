@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectsStyles from './ProjectsStyles'
-import toDo from '../assets/projects/toDo.png'
-import Button from './ui/Button'
+import toDo from '../../assets/projects/toDo.png'
+import Button from '../../components/ui/button/Button'
 
 function Projects() {
 
@@ -16,7 +16,7 @@ function Projects() {
 						<Img src={toDo} alt="project" />
 					</a>
 					<a href="https://vsjee.github.io/React-to-do/" target='_blank'>
-						<Button>To-Do</Button>
+						<Button >To-Do</Button>
 					</a>
 				</Div>
 				<Div>

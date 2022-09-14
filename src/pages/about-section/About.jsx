@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from './ui/Button'
+import Button from '../../components/ui/button/Button'
 import AboutStyles from './AboutStyles'
-import react from '../assets/react.svg'
+import react from '../../assets/react.svg'
 
 function About() {
 

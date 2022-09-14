@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import NavBarStyles from './NavBarStyles';
-import Welcome from './Welcome';
-import Button from './ui/Button';
-import NavLink from './ui/NavLink';
+import Welcome from '../../pages/welcome-section/Welcome';
+import Button from '../ui/button/Button';
+import NavLink from '../ui/navlink/NavLink';
 
 function NavBar() {
 

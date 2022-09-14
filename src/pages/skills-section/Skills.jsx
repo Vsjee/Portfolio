@@ -1,13 +1,13 @@
 import React from 'react';
 import SkillsStyles from './SkillsStyles';
-import html from '../assets/html.svg';
-import css from '../assets/css.svg';
-import javascript from '../assets/javascript.svg';
-import react from '../assets/react.svg';
-import python from '../assets/python.svg';
-import java from '../assets/java.svg';
-import git from '../assets/git.svg';
-import github from '../assets/github.svg';
+import html from '../../assets/html.svg';
+import css from '../../assets/css.svg';
+import javascript from '../../assets/javascript.svg';
+import react from '../../assets/react.svg';
+import python from '../../assets/python.svg';
+import java from '../../assets/java.svg';
+import git from '../../assets/git.svg';
+import github from '../../assets/github.svg';
 
 function Skills() {
 
